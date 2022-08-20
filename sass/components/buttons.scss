@@ -1,6 +1,7 @@
 @import "../abstracts/variables";
 
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -11,6 +12,10 @@
     transition: all 0.2s;
     position: relative;
     font-size: 1.6rem;
+
+    //changes for <button> element
+    cursor: pointer;
+    border: none;
   }
 
   &:hover {
